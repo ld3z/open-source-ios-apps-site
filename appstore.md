@@ -1,4 +1,4 @@
-# Open-Source iOS Apps
+# Open-Source iOS Apps On the Appstore
 
 <!-- 
 ⚠️ This README is generated, please do not update. To contribute, make changes to contents.json ⚠️ 
