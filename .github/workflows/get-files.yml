@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Copy files
-        uses: cpina/github-action-push-to-another-repository@v2
+        uses: cpina/github-action-push-to-another-repository@main
         with:
           source_repo: dkhamsing/open-source-ios-apps
           source_branch: main
