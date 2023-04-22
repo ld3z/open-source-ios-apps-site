@@ -18,7 +18,7 @@ jobs:
           ref: main
       - name: Copy Markdown Files
         run: |
-          cp *.md $GITHUB_WORKSPACE
+          cp *.md $GITHUB_WORKSPACE/
       - name: Push Files to Destination Repo
         uses: nkoppel/push-files-to-another-repository@v1.1.1
         with:
