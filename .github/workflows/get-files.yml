@@ -17,7 +17,7 @@ jobs:
       run: |
         git clone https://github.com/dkhamsing/open-source-ios-apps.git
         cd open-source-ios-apps
-        cp *.md ../open-source-ios-apps-site/
+        cp *.md ../
       working-directory: ${{github.workspace}}
       
     - name: Commit and push changes
