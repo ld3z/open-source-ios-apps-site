@@ -1,4 +1,4 @@
-name: Copy Markdown files
+name: Clone Markdown Files
 
 on:
   push:
@@ -6,18 +6,27 @@ on:
       - main
 
 jobs:
-  copy_files:
+  clone:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Copy files
-        uses: cpina/github-action-push-to-another-repository@main
-        with:
-          source_repo: dkhamsing/open-source-ios-apps
-          source_branch: main
-          source_directory: ./
-          destination_repo: ld3z/open-source-ios-apps-site
-          destination_branch: main
-          destination_directory: ./
-          github_token: ${{ secrets.DESTINATION_REPO_TOKEN }}
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Clone Markdown Files
+      run: |
+        git clone https://github.com/dkhamsing/open-source-ios-apps.git
+        cd open-source-ios-apps
+        cp *.md ../open-source-ios-apps-site/
+      working-directory: ${{github.workspace}}
+      
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4.9.2
+      with:
+        commit_message: "Update markdown files"
+        commit_user_name: "GitHub Actions"
+        commit_user_email: "actions@github.com"
+        commit_author: "GitHub Actions <actions@github.com>"
+        commit_files: "*.md"
+        branch: "main"
+        push: "true"
