@@ -1,20 +1,26 @@
 name: Push Markdown Files
+
 on:
   push:
     branches:
       - main
   schedule:
     - cron: '0 */12 * * *' # Runs every 12 hours at the top of the hour
+
 jobs:
-  push:
+  mirror:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
+      - name: Checkout Source Repo
         uses: actions/checkout@v2
+        with:
+          repository: dkhamsing/open-source-ios-apps
+          ref: main
       - name: Copy Markdown Files
-        run: cp -r *.md $GITHUB_WORKSPACE/open-source-ios-apps
-      - name: Push Files to Another Repo
-        uses: nkoppel/push-files-to-another-repository@v1.1.1
+        run: |
+          cp *.md $GITHUB_WORKSPACE
+      - name: Push Files to Destination Repo
+        uses: nkoppel/push-files-to-another-repository@v1.1
         with:
           files: |
             open-source-ios-apps-site/*.md
