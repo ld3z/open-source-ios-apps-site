@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
       - name: Copy Markdown Files
-        run: cp -r *.md $GITHUB_WORKSPACE/open-source-ios-apps-site/
+        run: cp -r *.md $GITHUB_WORKSPACE/open-source-ios-apps
       - name: Push Files to Another Repo
         uses: nkoppel/push-files-to-another-repository@v1.1.1
         with:
