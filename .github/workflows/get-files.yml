@@ -14,7 +14,7 @@ jobs:
       - name: Copy Markdown Files
         run: cp -r *.md $GITHUB_WORKSPACE/open-source-ios-apps-site/
       - name: Push Files to Another Repo
-        uses: nkoppel/push-files-to-another-repository@v1.1
+        uses: nkoppel/push-files-to-another-repository@v1.1.1
         with:
           files: |
             open-source-ios-apps-site/*.md
