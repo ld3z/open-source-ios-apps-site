@@ -1,5 +1,8 @@
 name: Push Markdown Files
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 */12 * * *' # Runs every 12 hours at the top of the hour
 jobs:
@@ -9,12 +12,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
       - name: Copy Markdown Files
-        run: cp -r *.md $GITHUB_WORKSPACE/my-markdown-repo/
+        run: cp -r *.md $GITHUB_WORKSPACE/open-source-ios-apps-site/
       - name: Push Files to Another Repo
         uses: nkoppel/push-files-to-another-repository@v1.1
         with:
           files: |
-            my-markdown-repo/*.md
+            open-source-ios-apps-site/*.md
           destination_repo: ld3z/open-source-ios-apps-site
           destination_branch: main
           github_token: ${{ secrets.DESTINATION_REPO_TOKEN }}
