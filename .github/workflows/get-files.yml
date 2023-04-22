@@ -23,7 +23,7 @@ jobs:
         uses: nkoppel/push-files-to-another-repository@v1.1.1
         with:
           files: |
-            open-source-ios-apps-site/*.md
+            *.md
           destination_repo: ld3z/open-source-ios-apps-site
           destination_branch: main
           github_token: ${{ secrets.DESTINATION_REPO_TOKEN }}
