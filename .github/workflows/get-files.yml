@@ -17,6 +17,7 @@ jobs:
       run: |
         git clone https://github.com/dkhamsing/open-source-ios-apps.git
         cd open-source-ios-apps
+        for f in *.md; do mv "$f" "$(echo "$f" | tr '[:upper:]' '[:lower:]')"; done
         cp *.md ../
       working-directory: ${{github.workspace}}
       
