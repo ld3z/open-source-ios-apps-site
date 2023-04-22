@@ -13,6 +13,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Copy files
         uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.DESTINATION_REPO_TOKEN }}
         with:
           source_repo: dkhamsing/open-source-ios-apps
           source_branch: main
@@ -20,4 +22,3 @@ jobs:
           destination_repo: ld3z/open-source-ios-apps-site
           destination_branch: main
           destination_path: ./
-          github_token: ${{ secrets.DESTINATION_REPO_TOKEN }}
