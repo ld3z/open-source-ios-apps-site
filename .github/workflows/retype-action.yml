@@ -1,6 +1,8 @@
 name: Publish Retype powered website to GitHub Pages
 on:
   workflow_dispatch:
+  schedule:
+  - cron: '0 12 * * *'
   push:
     branches:
       - main
