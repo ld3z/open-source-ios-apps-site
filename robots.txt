@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml.gz
+Sitemap: https://ld3z.github.io/open-source-ios-apps-site/sitemap.xml.gz
