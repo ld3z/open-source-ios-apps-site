@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: ld3z.github.io/open-source-ios-apps-site # Add your website address here
 branding:
-  title: Project Name
+  title: Open Source iOS Apps
   label: Docs
 links:
   - text: Getting Started
