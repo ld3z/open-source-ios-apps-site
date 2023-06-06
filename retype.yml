@@ -3,9 +3,9 @@ output: .retype
 url: ld3z.github.io/open-source-ios-apps-site # Add your website address here
 branding:
   title: Open Source iOS Apps
-  label: Docs
+  label: v1.0
 links:
   - text: Getting Started
     link: https://retype.com/guides/getting-started/
 footer:
-  copyright: "&copy; Copyright . All rights reserved."
+  copyright: "Created by: https://github.com/dkhamsing"
