@@ -6,7 +6,7 @@
 
 A collaborative list of open-source `iOS`, `iPadOS`, `watchOS` and `tvOS` apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
-![](https://img.shields.io/badge/Projects-1493-green.svg) ![](https://img.shields.io/badge/Updated-June%20%209,%202023-lightgrey.svg)
+![](https://img.shields.io/badge/Projects-1493-green.svg) ![](https://img.shields.io/badge/Updated-June%2011,%202023-lightgrey.svg)
 
 Jump to
 
@@ -2221,7 +2221,7 @@ https://www.apple.com/researchkit/ — [back to top](#readme)
   -  `2017` `objc` 
   -  ☆`24` 
 - [Startups - Mapped In Israel](https://github.com/sugarso/MappedInIsrael): Discover new startups & locate co-working spaces
-  -  <a href='https://i.imgur.com/vSyWHSA.png'>`Screenshot 1`</a>  <a href='https://i.imgur.com/WJbZSB6.png'>`Screenshot 2`</a>  <a href='https://i.imgur.com/fTlosLW.png'>`Screenshot 3`</a>  <a href='https://i.imgur.com/eTnGn5F.png'>`Screenshot 4`</a> 
+  -  <a href='https://github.com/dkhamsing/open-source-ios-apps/assets/4723115/78cb7967-7304-4aa2-a319-7182347f9bde'>`Screenshot 1`</a> 
   -  `2019` `objc` 
   -  ☆`31` 
 - [TICE](https://github.com/TICESoftware/tice-ios): Location sharing, cross-platform and end-to-end encrypted
@@ -3648,7 +3648,7 @@ https://joinmastodon.org — [back to top](#readme)
   -  <a href='https://github.com/KrauseFx/MajorKey/blob/master/screenshot.png'>`Screenshot 1`</a> 
   -  `2022` `swift` 
   -  ☆`187` 
-- [Notesnook](https://github.com/streetwriters/notesnook): A fully end-to-end encrypted and private note taking alternative to Evernote.
+- [Notesnook](https://github.com/streetwriters/notesnook): End-to-end encrypted and private note taking alternative to Evernote
   - <a href=https://notesnook.com>`https://notesnook.com`</a>
   - [` App Store`](https://apps.apple.com/app/notesnook-keep-notes-private/id1544027013) <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg?raw=true'>`Screenshot 1`</a>  <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg?raw=true'>`Screenshot 2`</a>  <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg?raw=true'>`Screenshot 3`</a>  <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg?raw=true'>`Screenshot 4`</a>  <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg?raw=true'>`Screenshot 5`</a>  <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.jpg?raw=true'>`Screenshot 6`</a>  <a href='https://github.com/streetwriters/notesnook/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/7.jpg?raw=true'>`Screenshot 7`</a> 
   -  `2023` `react-native` 
