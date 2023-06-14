@@ -6,7 +6,7 @@
 
 A collaborative list of open-source `iOS`, `iPadOS`, `watchOS` and `tvOS` apps, your [contribution](https://github.com/dkhamsing/open-source-ios-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
-![](https://img.shields.io/badge/Projects-1494-green.svg) ![](https://img.shields.io/badge/Updated-June%2012,%202023-lightgrey.svg)
+![](https://img.shields.io/badge/Projects-1495-green.svg) ![](https://img.shields.io/badge/Updated-June%2014,%202023-lightgrey.svg)
 
 Jump to
 
@@ -2422,7 +2422,7 @@ Image, video, audio, reading — [back to top](#readme)
   -  `2018` `swift` `arkit` `banksy` 
   -  ☆`41` 
 - [Artsy](https://github.com/artsy/eigen): The art world in your pocket
-  - [` App Store`](https://apps.apple.com/app/artsy-art-world-in-your-pocket/id703796080) <a href='https://i.imgur.com/5HxLvwG.png'>`Screenshot 1`</a> 
+  - [` App Store`](https://apps.apple.com/app/artsy-art-world-in-your-pocket/id703796080) <a href='https://github.com/dkhamsing/open-source-ios-apps/assets/4723115/2e40b21e-59fa-4026-ad3c-07e2a08bf4f5'>`Screenshot 1`</a> 
   -  `2023` `iphone` `ipad` `reactnative` `typescript` 
   -  ☆`3237` 
 - [Artsy Folio](https://github.com/artsy/energy): Artwork showcase
@@ -3094,6 +3094,9 @@ https://newsapi.org/ — [back to top](#readme)
 - [ARKit Example](https://github.com/gao0122/ARKit-Example-by-Apple): Placing objects
   -  `2022` `swift` `arkit` 
   -  ☆`278` 
+- [Backyard Birds](https://github.com/apple/sample-backyard-birds): App with persistent data, interactive widgets, and an all new in-app purchase experience - WWDC 2023 sample code by Apple
+  - `swift` `swiftdata` `widget` `ios17` `iap` `swiftui` 
+  -  ☆`289` 
 - [Cannonball](https://github.com/crashlytics/cannonball-ios): Fun way to create / share stories & poems
   - [` App Store`](https://apps.apple.com/app/cannonball-magnetic-poetry/id929750075) <a href='https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/33/28/ce/3328ce01-615a-cca8-f219-9696c4616b6c/mzl.yvhfoxdx.png/460x0w.jpg'>`Screenshot 1`</a>  <a href='https://is2-ssl.mzstatic.com/image/thumb/Purple5/v4/dc/63/1e/dc631e76-0e04-7172-4469-a29701b5eb16/mzl.gxyhiuqe.png/460x0w.jpg'>`Screenshot 2`</a>  <a href='https://is3-ssl.mzstatic.com/image/thumb/Purple5/v4/f5/72/97/f5729724-aea9-e475-6847-051da67cd1ad/mzl.grshysaw.png/460x0w.jpg'>`Screenshot 3`</a>  <a href='https://is3-ssl.mzstatic.com/image/thumb/Purple7/v4/14/6c/99/146c9960-a339-6ae1-60ce-bdb3fe22a23a/mzl.bchzernf.png/460x0w.jpg'>`Screenshot 4`</a> 
   -  `2018` `swift` 
@@ -4461,7 +4464,7 @@ https://facebook.github.io/react-native/ — [back to top](#readme)
   -  `2017` `react native` 
   -  ☆`22` 
 - [Artsy](https://github.com/artsy/eigen): The art world in your pocket
-  - [` App Store`](https://apps.apple.com/app/artsy-art-world-in-your-pocket/id703796080) <a href='https://i.imgur.com/5HxLvwG.png'>`Screenshot 1`</a> 
+  - [` App Store`](https://apps.apple.com/app/artsy-art-world-in-your-pocket/id703796080) <a href='https://github.com/dkhamsing/open-source-ios-apps/assets/4723115/2e40b21e-59fa-4026-ad3c-07e2a08bf4f5'>`Screenshot 1`</a> 
   -  `2023` `iphone` `ipad` `reactnative` `typescript` 
   -  ☆`3237` 
 - [Assemblies](https://github.com/buildreactnative/assemblies): Developer-focused Meetup clone
